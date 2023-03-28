@@ -1,0 +1,948 @@
+/* Css Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Main-Container */
+#main-container {
+    margin: 0px auto;
+    max-width: 1300px;
+}
+
+/* Banner Start */
+#banner {
+    background-image: url('/Images/Banner\ Background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 795px;
+    width: 100%;
+}
+
+#bannerh1 {
+    font-size: 70px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-top: 220px;
+    padding-left: 30px;
+    margin: 0;
+}
+
+#bannerpara {
+    font-size: 22px;
+    font-family: "nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding-top: 15px;
+    padding-left: 50px;
+    margin: 0;
+}
+
+#button1 {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.btn1 {
+    font-size: 20px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    background-color: #f14c4c;
+    padding: 10px 40px;
+    border-radius: 22px;
+}
+
+/* Banner End */
+/* Container1 Start */
+#container1 {
+    background-image: url('/Images/Container1\ Background\ Desgin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 796px;
+    width: 100%;
+}
+
+#container1 #container1h1 {
+    font-size: 50px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f14c4c;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#container1 #container1para {
+    font-size: 20px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #f14c4c;
+    text-align: center;
+}
+
+#container1 #container1keander {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0px;
+}
+
+.box1 .box1h1 {
+    font-family: "archivo-black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f14c4c;
+    text-align: center;
+}
+
+.box1 .box1para {
+    font-family: "nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f14c4c;
+    text-align: center;
+}
+
+/* Container1 End */
+/* Container2 Start */
+#container2 {
+    background-image: url('/Images/Container2\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container2 .box2 img {
+    margin: 0;
+    height: 500px;
+    padding-top: 60px;
+}
+
+#container2 #container2h1 {
+    font-family: "archivo-black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 60px;
+    padding: 10px 20px;
+}
+
+#container2 #container2para {
+    font-size: 25px;
+    font-family: "nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 0px 20px;
+}
+
+#button2 {
+    margin: 50px 20px;
+}
+
+.btn2 {
+    font-size: 20px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: #f14c4c;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 22px;
+}
+
+/* Container2 End */
+
+/* Container3 Start */
+#container3 {
+    background-image: url('/Images/Container3\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 824px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container3 #container3h1 {
+    font-family: "archivo-black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f14c4c;
+    font-size: 60px;
+    padding: 10px 20px;
+}
+
+#container3 #container3para {
+    font-size: 25px;
+    font-family: "nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f14c4c;
+    padding: 0px 20px;
+}
+
+#button3 {
+    margin: 50px 20px;
+}
+
+.btn3 {
+    font-size: 20px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    background-color: #f14c4c;
+    padding: 10px 40px;
+    border-radius: 22px;
+}
+
+#container3 .box3 img {
+    margin: 0;
+    height: 500px;
+    padding-top: 60px;
+}
+
+/* Container3 End */
+
+/* container4 Start */
+#container4 {
+    background-image: url('/Images/Container4\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+#container4 #container4h1 {
+    font-size: 70px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+#container4 #container4para {
+    font-size: 20px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.container4keander {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.container4keander .box4 .circle {
+    border: 5px solid white;
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+
+.container4keander .box4 .container4box4h1 {
+    font-size: 50px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+}
+
+.container4keander .box4 .container4box4para {
+    font-size: 25px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 250px;
+}
+
+/* container4 End */
+/* container5 Start */
+#container5 {
+    background-image: url('/Images/Container5\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+#container5 #container5h1 {
+    font-size: 70px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    color: #f14c4c;
+    margin: 0;
+    padding-top: 100px;
+}
+
+#container5 .container5keander {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container5 .container5keander .box5 {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-top: 180px;
+}
+
+.box5 .container5box5h1 {
+    font-size: 20px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #f14c4c;
+    text-align: center;
+}
+
+.box5 img {
+    height: 120px;
+    display: block;
+    margin: auto;
+}
+
+.box5 .container5box5h2 {
+    font-size: 25px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #f14c4c;
+    text-align: center;
+}
+
+.box5 .container5box5para {
+    font-size: 15px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: #f14c4c;
+}
+
+.box5 .button5 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box5 .btn5 {
+    font-size: 20px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    color: white;
+    background-color: #f14c4c;
+    padding: 10px 40px;
+    border-radius: 22px;
+}
+
+/* container5 End */
+
+/* container6 Start */
+#container6 {
+    background-image: url('/Images/Container6\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+#container6 #container6para {
+    font-size: 20px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 150px;
+}
+
+#container6 #container6h1 {
+    font-size: 40px;
+    font-family: 'Calistoga', cursive;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 60px;
+}
+
+/* container6 End */
+
+/* container7 Start */
+#container7 {
+    background-image: url('/Images/Container7\ Background\ Image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+#container7 #container7h1 {
+    font-size: 50px;
+    font-family: "archivo-black", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #f14c4c;
+    text-align: center;
+    margin: 0;
+    padding-top: 100px;
+}
+
+#container7 #container7para {
+    font-size: 22px;
+    font-family: "nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f14c4c;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+form {
+    margin-top: 70px;
+}
+
+#container7 input[type='email'] {
+    height: 30px;
+    width: 450px;
+    display: block;
+    margin: auto;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 0px 20px;
+    color: gray;
+    background-color: white;
+    border: none;
+}
+
+#container7 input[type='button'] {
+    height: 30px;
+    padding: 0px 20px;
+    color: white;
+    background-color: #f14c4c;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 307px;
+    cursor: pointer;
+}
+
+/* container7 End */
+
+@media only screen and (min-width: 320px) and (max-width:600px) {
+
+    /* Banner Start */
+    #banner {
+        background-image: url('/Images/Banner\ Background.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 450px;
+        width: 100%;
+    }
+
+    #bannerh1 {
+        font-size: 40px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        margin: 0;
+        padding: 30px 20px;
+    }
+
+    #bannerpara {
+        font-size: 20px;
+        font-family: "nunito", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        padding: 10px 20px;
+        margin: 0;
+    }
+
+    #button1 {
+        text-align: center;
+    }
+
+    .btn1 {
+        font-size: 20px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+        background-color: #f14c4c;
+        padding: 10px 30px;
+        border-radius: 22px;
+    }
+
+    /* Banner End */
+    /* Container1 Start */
+    #container1 {
+        background-image: url('/Images/Container1\ Background\ Desgin.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1500px;
+        width: 100%;
+    }
+
+    #container1 #container1h1 {
+        font-size: 50px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f14c4c;
+        text-align: center;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    #container1 #container1para {
+        font-size: 15px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #f14c4c;
+        text-align: center;
+    }
+
+    #container1 #container1keander {
+        display: flex;
+        flex-direction: column;
+        padding: 70px 0px;
+    }
+
+    .box1 .box1h1 {
+        font-family: "archivo-black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f14c4c;
+        text-align: center;
+    }
+
+    .box1 .box1para {
+        font-family: "nunito", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f14c4c;
+        text-align: center;
+    }
+
+    .box1 img {
+        display: block;
+        margin: auto;
+        padding: 20px 0px;
+    }
+
+    /* Container1 End */
+    /* Container2 Start */
+    #container2 {
+        background-image: url('/Images/Container2\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 850px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container2 .box2 img {
+        margin: auto;
+        height: 250px;
+        display: block;
+    }
+
+    #container2 #container2h1 {
+        font-family: "archivo-black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 60px;
+        padding: 10px 20px;
+    }
+
+    #container2 #container2para {
+        font-size: 25px;
+        font-family: "nunito", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        padding: 0px 20px;
+    }
+
+    #button2 {
+        margin: 40px 20px;
+        text-align: center;
+    }
+
+    .btn2 {
+        font-size: 20px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-decoration: none;
+        color: #f14c4c;
+        background-color: white;
+        padding: 10px 30px;
+        border-radius: 22px;
+    }
+
+    /* Container2 End */
+    /* Container3 Start */
+    #container3 {
+        background-image: url('/Images/Container3\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 850px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #container3 #container3h1 {
+        font-family: "archivo-black", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f14c4c;
+        font-size: 60px;
+        padding: 10px 20px;
+        text-shadow: 2px 2px black;
+    }
+
+    #container3 #container3para {
+        font-size: 25px;
+        font-family: "nunito", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f14c4c;
+        text-shadow: 2px 2px black;
+        padding: 0px 20px;
+    }
+
+    #button3 {
+        margin: 50px 20px;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .btn3 {
+        font-size: 20px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+        background-color: #f14c4c;
+        padding: 10px 40px;
+        border-radius: 22px;
+    }
+
+    #container3 .box3 img {
+        margin: 0;
+        height: 250px;
+        padding: 10px 0px;
+    }
+
+    /* Container3 End */
+    /* container4 Start */
+    #container4 {
+        background-image: url('/Images/Container4\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1700px;
+        width: 100%;
+    }
+
+    #container4 #container4h1 {
+        font-size: 50px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    #container4 #container4para {
+        font-size: 15px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        color: white;
+        padding: 5px 10px;
+    }
+
+    .container4keander {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .container4keander .box4 .circle {
+        border: 5px solid white;
+        height: 300px;
+        width: 300px;
+        border-radius: 200px;
+        display: block;
+        margin: auto;
+    }
+
+    .container4keander .box4 .container4box4h1 {
+        font-size: 50px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 250px;
+    }
+
+    .container4keander .box4 .container4box4para {
+        font-size: 25px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        color: white;
+        position: relative;
+        bottom: 250px;
+    }
+
+    /* container4 End */
+    /* container5 Start */
+    #container5 {
+        background-image: url('/Images/Container5\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 1500px;
+        width: 100%;
+    }
+
+    #container5 #container5h1 {
+        font-size: 50px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        text-align: center;
+        color: #f14c4c;
+        margin: 0;
+        padding: 20px 10px;
+    }
+
+    #container5 .container5keander {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px;
+    }
+
+    #container5 .container5keander .box5 {
+        background-color: white;
+        height: 400px;
+        width: 300px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .box5 .container5box5h1 {
+        font-size: 20px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: #f14c4c;
+        text-align: center;
+    }
+
+    .box5 img {
+        height: 120px;
+        display: block;
+        margin: auto;
+    }
+
+    .box5 .container5box5h2 {
+        font-size: 25px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: #f14c4c;
+        text-align: center;
+    }
+
+    .box5 .container5box5para {
+        font-size: 15px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        color: #f14c4c;
+    }
+
+    .box5 .button5 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .box5 .btn5 {
+        font-size: 20px;
+        font-family: "montserrat", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+        background-color: #f14c4c;
+        padding: 10px 40px;
+        border-radius: 22px;
+    }
+
+    /* container5 End */
+    /* container6 Start */
+    #container6 {
+        background-image: url('/Images/Container6\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    #container6 #container6para {
+        font-size: 20px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 50px 40px;
+    }
+
+    #container6 #container6h1 {
+        font-size: 40px;
+        font-family: 'Calistoga', cursive;
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 0px 20px;
+    }
+
+    /* container6 End */
+    /* container7 Start */
+    #container7 {
+        background-image: url('/Images/Container7\ Background\ Image.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 100%;
+    }
+
+    #container7 #container7h1 {
+        font-size: 50px;
+        font-family: "archivo-black", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        color: #f14c4c;
+        text-align: center;
+        margin: 0;
+        padding: 30px 10px;
+    }
+
+    #container7 #container7para {
+        font-size: 22px;
+        font-family: "nunito", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #f14c4c;
+        text-align: center;
+        margin: 0;
+        padding: 20px 10px;
+    }
+
+    form {
+        margin-top: 50px;
+    }
+
+    #container7 input[type='email'] {
+        height: 30px;
+        width: 250px;
+        display: block;
+        margin: auto;
+        border-radius: 50px;
+        padding: 0px 20px;
+        color: gray;
+        background-color: white;
+        border: none;
+    }
+
+    #container7 input[type='button'] {
+        height: 30px;
+        width: 100px;
+        color: white;
+        background-color: #f14c4c;
+        border: none;
+        cursor: pointer;
+        display: block;
+        margin: 10px auto;
+        position: relative;
+        right: 20px;
+        border-radius: 50px;
+        text-align: center;
+    }
+
+    /* container7 End */
+}
